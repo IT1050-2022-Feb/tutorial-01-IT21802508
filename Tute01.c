@@ -1,11 +1,21 @@
-/* Exercise 1 - Calculations
+// Exercise 1 - Calculations
+#include<stdio.h>
 
-   Write a C program to input marks of two subjects. Calculate and print the average of the two marks. */
+int main(){
 
-#include <stdio.h>
+  float mark1 , mark2 , average ;
 
-int main() {
+printf ("Enter mark1: ") ;
+scanf("%f",&mark1) ;
+
+printf ("Enter mark2: ") ;
+scanf("%f",&mark2) ;
+
+average = mark1 + mark2 / 2.0 ;
+
+printf("%.2f",average) ;
+
+return 0 ;
   
-  return 0;
 }
-
+  
